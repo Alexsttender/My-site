@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru"> <!-- you have to switch it when change language-->
+<head>
+    <meta charset="UTF-8"> <!-- always use it if you don't sure someone or you gona use non-latin words or symbols-->
+    <meta name="keywords" content="Backend, разработчик, сайт, проекты, резюме"> <!-- keywords helps find your site in search engine-->
+    <meta name="description" content="Сайт Backend-разработчика в поисках достойной работы, а также его зания и проекты"> <!-- also keyword, but also it will be visible in description of your link in search page-->
+    <meta name="author" content="Тепляков Александр, Alexender Tepliakov"> <!-- Just author =) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- this helps to adapt your site to other devices, also you can use <meta content='true' name='HandheldFriendly'/> but content="width=device-width almost repalce it functionality-->
+    <title>Сайт Junior-разработчика</title> <!-- tab text-->
+    <link rel="stylesheet" href="css/main.css"> <!-- I used here only my own CSS, but you can also easily import any other CSS from internet, for example CSS from W3schools "https://www.w3schools.com/w3css/4/w3.css"-->
+</head>
+<body>
+        <a href="index.html"><img class="image-in-left-corner" src="images/pa-pa.jpg" ></a><!-- a little creature in left corner "yee". Pay attention that <img> tag inside <a> tag, this is the way how links work with image-->
+        <p class="text-in-left-corner">Добро пожаловать!</p>
+        <img class="background-image" src="images/social.jpg"> <!-- Github background-->
+    <div class="mainsiteparametrs"> <!-- this tag affects to all main text decription, this gives it a font style as well and fixed it between sides -->
+        <br>
+            <p class="fortranslate">For english version of the page poke here please! --> <a href="Site_eng.html" style="color: #dfe11a; text-decoration: none;">eng</a></p><!-- redirect to other html page with english text-->
+        <div class="nav1 dropdown"> <!--these are buttons that allow you to navigate between other parts of the site -->
+            <span class="button">Проекты</span>
+            <div class="dropdown-content">
+                <a href="#">Hello World! (пока на ремонте)</a>
+            </div>
+        </div>
+        <br><br><br>
+        <div class="nav2 dropdown"><!-- another one-->
+            <span class="button" >Статьи</span>
+            <div class="dropdown-content">
+                <a href="Articles/Разработка_сайта.html">Разработка этого сайта</a>
+                <a href="#">Тут будет ещё статья</a>
+                <a href="#">И ещё одна</a>
+                <a href="#">И ещё одна</a>
+                <a href="#">И даже ещё одна!</a>
+            </div>
+        </div>
+        <em style="left:-160px; top: 360px; font-size: 20px; position: absolute;">Ссылки:</em><!-- you can use a style for one or more elements on an html page, but when you have many elements, you should use classes that help influence changes in many parts at once-->
+        <a href="https://github.com/Alexsttender" target="_blank"><img class="icons" style="top:410px;  border-radius: 50%" src="images/GitHub-Mark.png" ></a><!-- i used trick, so images works like media buttons-->
+        <a href="https://www.codewars.com/users/AlexenderGoesGo" target="_blank"><img class="icons" style="top:480px;" src="images/codewars_icon.png" ></a>
+        <a href="https://hh.ru/resume/68fb6907ff0581b7640039ed1f62615a724461" target="_blank"><img class="icons" style="top:550px;  border-radius: 50%" src="images/hh_icon.webp" ></a>
+        <h1 class="greetingsmain">Я backend-разработчик!</h1>
+        <br> <!-- instead of moving text to CSS, when creating simple site tags, easy indentation helps better -->
+        <p>На данный момент я развиваюсь в сторону именно backend, потому что считаю что сложные схемы взаимодействий структур, классов
+        Понимание сложной архитектуры приложений и так далее - это то, что мне интересно! Я всегда привык часами ковыряться в разных сложных для меня вещах, выпутывая
+        до конца их суть и пытаясь в корне осознать их и понять.<br><br> На данный момент у меня нет опыта комерческой разработки(не считая небольшого опыта взаимодействия с SQL системами на стажировке в 2019 году)
+        Но у меня есть знания, проекты и, самое главное, желание развиваться и двигаться вперёд! Я уверен что прилагая свои силы, внимания и труд можно достичь высокого мастерства в деле.
+        </p> <!-- you can write all text at once in mone tag, but separation of text helps you to understand other parts of your text and also aplly diffrent styles -->
+        <br>
+        <h2 class="smallheaders">Какая информация есть на этом сайте? <br></h2><br>
+        <p>Здесь я подробно описываю свои навыки,мысли,идеи,уменя а также демонстрирую реалализованные проекты.<br><br>
+        Слева от текста есть меню, в котором есть разделы разными статьями и проектами, там я описываю их подробнее.
+        Там я излагаю список тех или иных знаний и умений которыми я владею(или кажется что владею). Так или иначе к каждой из этих тем 
+        я подходил с умом и старался выучить именно то, что мне показалось необходимым и важным в будущей деятельности.<br><br>
+        По сути эта страница - просто входной параметр, по сути здесб большей частью подробно собрана информация про меня и про то что я умею делать.
+        Также слева есть ссылки на различные социальные медиа, там также можно найти про меня информацию.
+        </p><br>
+        <h2 class="smallheaders">Информация обо мне<br></h2><br>
+        <p>Меня зовут Александр мне 22 года, я родом из Хабаровска но живу в Москве, сейчас я активно ищу работу и постоянно развиваюсь в области backend и понимания разных сервисов и треминологий.<br><br>
+        По сути я занимаюсь программирование с 11 лет, я начинал с QBasic, после чего мне удалось попыбвать в олимпиадном лагере для программистов в 14 лет (их новый <a href="https://informatics.msk.ru/" style="color: #e6e3e3; text-decoration: none;" target="_blank">сайт</a>)
+        Где я научился Python и активно с ним программировал. К великому сожалению доступ к своему аккаунту у меня утерян, там было большое количество кода как на Python так и на C++...
+        Ах да, ещё позже я изучал C++, пытался писать на нём свои старые задачки, которые были написаны на Python. Также в школе я ещё изучил Pascal (хотя и писал в основном на C++), ради интереса за день выучил отечественный
+        язык программирования Кумир.<br><br> Потом я поступил в университет ВШЭ на направление программной инженерии, но ушёл из-за проблем в жизни с первого курса, после чего в следующем году поступил в МТУ(ныне РТУ) в филиал МГУПИ на бюджетной основе
+        на направление Информационные системы и технологии. В это время моё саморазвитие особо не прогрессировало, я занимался другими вещами, подрабатывал не по спецальности и просто учился.<br>
+        </p><br>
+        <h2 class="smallheaders">Сила - в самообучении и саморазвитии, в способности нести ответсвенность<br></h2><br>
+        С конца прошлого года я решил, что самообучение даст мне гораздо больше прогресса, чём лекции и практики, по опыту это всегда было так, и поэтому ушёл из университета.
+        У меня было желание продвинуться в прикладном программировании, начать разрабатывать настоящие проекты и как можно скорее найти хорошую работу, как для самообеспечения, так и для прогресса в настоящей бизнес-среде. <br><br>
+        Для себя я выбрал backend, потому что я хорошо разбираюсь в сложных и непонятных на первый взгляд вещах. Я могу часами подробно изучать техническую литературу, как на русском так и на английском.
+        Также часами я могу решать различные задачки и реализовывать свои проекты, когда ты сам постоянно сталкиваешься с чем-то новым, когда сам для себя выбираешь тропу обучения - то чувствуешь за себя большую ответсвенность
+        и быстрее развиваешься, завтра ты способен разбираться в вещах, которые ещё позавчера для тебя вызывали какой-то страх или отрешённость, потому что тебе не нужно ждать чего-то, ты сам чувствуешь куда идешь и как,
+        сам выбираешь для себя принципы обучения, темы, язык программирования и так далее. В будущем - возможность полагаться в первую очередь на себя, это один из ключевых навыков, особенно в таком непростом но интересном деле как программирование.
+        </p>
+        <br><br><br><br><br>
+    </div>
+        <footer>Сайт создан в 2021 году, информацию и другие данные с сайта можно<br>
+        можно копировать для любых целей, желательно указывать на него ссылку<br>
+        Связаться можно наприямую через рабочую почту - <a href="mailto:sasha.stworktm@gmail.com" style="color: #e6e3e3; text-decoration: none;">sasha.stworktm@gmail.com</a>
+        </footer>
+    </body>
+</html>
